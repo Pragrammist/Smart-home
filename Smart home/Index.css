@@ -1,0 +1,136 @@
+a{
+  color: #fff;
+   text-decoration: none;
+}
+a:hover {
+    text-decoration:  line-through;
+   }
+body{
+  margin: 0;
+}
+.overall{
+  background-color: #F6F6F6;
+  width: 100%;
+  height: auto;
+}
+  .header{
+    height: 50px;
+    width: 100%;
+    background-color: #3A3A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-bar{
+    width: 70%;
+    height: 100%;
+
+  }
+  .content-bar ul{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    font-family: "Gotham Pro Bold",Helvetica,Arial,sans-serif;
+  }
+    .content-bar li{
+      display:inline;
+      padding-right: 100px;
+
+    }
+  .main{
+    height: 2100px;
+    width: 100%;
+  }
+  .line-block{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img-s{
+    min-width: 100%;
+    min-width: height: 100%;
+  }
+  .img-block{
+    min-width: 435px;
+    max-width: 450px;
+    min-height: 400px;
+    max-height: 420px;
+    display: flex;
+    align-items: center;
+  }
+  .content-block{
+    display: flex;
+    height: 70%;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .img-main-content{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .img-main-content img{
+    max-width: 100%;
+    height: auto;
+  }
+   .content-block .text-main-content{
+     font-family: PTSans,sans-serif,serif;
+     padding-left: 100px;
+     padding-right: 100px;
+     text-align: justify;
+   }
+   .text-main-content h1{
+     font-size: 40px;
+     font-weight: bold;
+     font-style: normal;
+   }
+   .text-main-content b{
+     font-size: 20px;
+   }
+   .text-main-content p{
+     font-weight: 400;
+     line-height: 1.7;
+     font-size: 18px;
+   }
+   .text-main-content ul{
+     font-style: italic;
+     line-height: 1.2;
+     font-size: 18px;
+   }
+   .text-main-content p{
+     font-weight: 400;
+     line-height: 1.7;
+     font-size: 18px;
+   }
+  .footer{
+    height: 150px;
+    width: 100%;
+    background-color: #3A3A44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-block{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+  }
+  .text-block .text{
+    padding-bottom: 15px;
+
+  }
